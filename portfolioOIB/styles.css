@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.initials{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.brand{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navlist{
+    padding-left: 680px;
+}
+.navitems{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.navitems:hover{
+    color: rgb(179, 43, 66);
+    transition: 0.5s;
+}
+.about{
+    color: rgb(179, 43, 66);
+}
+.box1{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(295, 224, 212);
+}
+.box2{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(396, 228, 224);
+    margin-left: -200px;
+    margin-top: 120px; 
+    box-shadow: grey -7px 6px 22px -10px ;
+}
+.avtar{
+    width: 200px;
+    height: 216px;
+    border-radius: 400px;
+    margin-left: -276px;
+    margin-top: 160px;
+}
+.content{
+    display: flex;
+}
+.myname{
+    margin-left: -153px;
+    margin-top: 400px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line{
+    height: 2px;
+    background-color: rgb(179, 43, 66);
+    width: 50px;
+    margin-top: 460px;
+    margin-left: -82px;
+}
+.web{
+    font-size: 16px;
+    font-weight: 340;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    margin-left: -112px;
+    margin-top: 495px;
+}
+.box3{
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    margin-top: 450px;
+}
+.fb{
+    width: 20px;
+    height: 20px;
+    margin-top: 585px;
+    margin-left: -170px;
+}
+
+.twitter{
+    width: 20px;
+    height: 20px;
+    margin-top: 585px;
+    margin-left: 14px;
+}
+.linkedin{
+    width: 20px;
+    height: 20px;
+    margin-top: 585px;
+    margin-left: 18px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    margin-top: 585px;
+    margin-left: 20px;
+}
+.hello{
+    font-size: 96px;
+    margin-top: 145px;
+    margin-left: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text{
+    font-size: 24px;
+    margin-top: 280px;
+    margin-left: -213px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    border: 1px solid rgb(179, 43, 66);
+    background-color: rgb(179, 43, 66);
+    color: white;
+    font-weight: 600;
+}
+.btn1:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(179, 43, 66);
+    transition: 0.5s;
+}
+.btn2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(179, 43, 66);
+    border: 1px solid rgb(179, 43, 66);
+    transition: 0.5s;
+}
+.btns{
+    margin-left: -225px;
+    margin-top: 385px;
+}
+.texts{
+    width: 370px;
+    height: 300px;
+    margin-left: -253px;
+    margin-top: 480px;
+}
+.intro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+}
+.xtra{
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+}
+.footer{
+    display: flex;
+    margin-top: -60px;
+}
+.fb2{
+    width: 15px;
+    height: 15px;
+    margin-left: -60px;
+    margin-top: 25px;
+}
+.twitter2{
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.linkedin2{
+    width: 15px;
+    height: 15px;
+    margin-left: 9px;
+    margin-top: 25px;
+}
+.insta2{
+    width: 15px;
+    height: 15px;
+    margin-left: 9px;
+    margin-top: 25px;
+}
+.cpy{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.pow{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -119px;
+    margin-top: 25px;
+}
+.no{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -44px;
+    margin-top: 25px;
+}
+.call{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 760px;
+    margin-top: 2px;
+}
+.follow{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+    margin-top: 2px;
+}
+.logo2{
+    margin-left: 20px;
+    margin-top: -10px;
+}

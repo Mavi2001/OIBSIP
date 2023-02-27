@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.initials{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.brand{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navlist{
+    padding-left: 680px;
+}
+.navitems{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.navitems:hover{
+    color: rgb(179, 43, 66);
+    transition: 0.5s;
+}
+.contact{
+    color: rgb(179, 43, 66);
+}
+.content{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(295, 224, 212);
+}
+.heads{
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(179, 43, 66);
+    margin-top: 80px;
+    margin-left: 640px;
+}
+.talk{
+    font-weight: 500;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+.form{
+    width: 628px;
+    height: 600px;
+    background-color: white;
+    margin-left: 390px;
+    margin-top: 40px;
+    box-shadow: grey -7px 6px 22px -10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    /* display: flex; */
+}
+.cont1{
+    display: flex;
+}
+.one{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.two{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.cont2{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.cont3{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.cont4{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.inp{
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    background-color: rgb(295, 224, 212);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inp2{
+    width: 450px;
+}
+.btn{
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    border: 1px solid rgb(179, 43, 66);
+    background-color: rgb(179, 43, 66);
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(179, 43, 66);
+    transition: 0.5s;
+}
+.footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    display: flex;
+    margin-top: -60px;
+    background-color: white;
+}
+.fb2{
+    width: 15px;
+    height: 15px;
+    margin-left: -60px;
+    margin-top: 25px;
+}
+.twitter2{
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.linkedin2{
+    width: 15px;
+    height: 15px;
+    margin-left: 9px;
+    margin-top: 25px;
+}
+.insta2{
+    width: 15px;
+    height: 15px;
+    margin-left: 9px;
+    margin-top: 25px;
+}
+.cpy{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.pow{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -119px;
+    margin-top: 25px;
+}
+.no{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -44px;
+    margin-top: 25px;
+}
+.call{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 760px;
+    margin-top: 2px;
+}
+.follow{
+    font-size: 12px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+    margin-top: 2px;
+}
+.logo2{
+    margin-left: 20px;
+    margin-top: -10px;
+}

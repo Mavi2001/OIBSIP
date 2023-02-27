@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/tempp.png">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <img src="images/log1.jpg" alt="image" class="image">
+    <form id="form" class="form" onsubmit="TempCal(); return false" >
+        <p for="temp" class="enter">Enter the temperature to be converted:</p>
+        <p class="header">Temperature Converter</p>
+        <br><input type="number" name="temp" id="temp" class="input"><br>
+        <select name="temptype" id="temptype" class="select">
+            <option value="cel" class="opt">°Celcius</option>
+            <option value="fah" class="opt">°Fahrenheit</option>
+        </select><br>
+        <input type="submit" name="temp" class="submit"><br>
+        <span id="resultbox" class="span">
+        </span>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
